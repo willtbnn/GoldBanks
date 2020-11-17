@@ -55,40 +55,6 @@ body{
         margin-top: 5rem !important;
     }
 }
-/* Flip consultores */
-/* .card:hover{
-    cursor: pointer;
-    box-shadow:5px 5px 8px #C8AE25, 10px 10px 8px #FFD600, 15px 15px 8px gray;
-
-}
-.card-deck {
-    perspective: 1000px;
-}
-.card .front{
-    transform: rotateY(0deg);
-    backface-visibility: hidden;
-    transition: all .4s linear;
-}
-.card .back{
-    position: absolute !important;
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
-    transition: all .4s linear;
-    /* filter: grayscale(100%);
-    -webkit-filter: grayscale(100%); 
-}
-.card:hover .front{
-    transform: rotateY(-180deg);
-    cursor: pointer;
-}
-.card:hover .back{
-    transform: rotateY(0deg);
-    cursor: pointer;
-} */
-/* Flip consultores */
-
-/* Edição de perfil */
-
 .margin-perfil{
     margin-top:10rem;
 }
@@ -103,4 +69,83 @@ p.status:after{
 }
 .ativo{
     background-color: darkgreen !important;
+}
+
+.maximin{
+    max-height: 30rem;
+}
+@media (max-width: 500px) {
+    .maximin{
+        max-height: 15rem;
+    }
+    #mt-control{
+        margin-top: 2rem !important;
+    }
+    
+}
+
+.w-10{
+    max-width: 5rem;
+}
+.bancos{
+    opacity: 0.4;
+}
+.bancos:hover{
+    opacity:1;
+}
+.bg-client{
+    background-image: url(../images/carousel/gold-fincancia.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 550px 550px 550px 550px rgba(22, 25, 31, 0.8);
+}
+hr{
+    background-color:white !important;
+}
+.bg-image-1{
+    background-image: url(../images/senior/rd\ \(33\).JPG);
+    width: 100%;
+    height: 100rem;
+    background-size:100% 30%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    box-shadow: inset 550px 550px 550px 550px rgba(22, 25, 31, 0.8);
+}
+.bg-image-2{
+    background-image: url(../images/senior/rd\ \(2\).JPG);
+    width: 100%;
+    height: 100rem;
+    background-size:100% 30%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    /* background-attachment: fixed; */
+    box-shadow: inset 550px 550px 550px 550px rgba(22, 25, 31, 0.8);
+}
+.bg-image-3{
+    background-image: url(../images/senior/rd\ \(82\).JPG);
+    width: 100%;
+    height: 100rem;
+    background-repeat: no-repeat;
+    background-position: top right;
+    /* background-attachment: fixed; */
+    box-shadow: inset 550px 550px 550px 550px rgba(22, 25, 31, 0.8);
+}
+.fort{
+    font-weight: 1000 !important;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem !important;
+    color: white !important;
+}
+.fort-sm{
+    font-size: 2.3rem !important;
+    font-weight: 1000 !important;
+    font-family: 'Bebas Neue', cursive;
+    color: white !important;
+}
+.control-fort{
+    font-size: 2.5rem !important;
+}
+.bg-card:hover{
+    margin-top:-10px;
 }

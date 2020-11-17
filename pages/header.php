@@ -18,10 +18,14 @@
     <link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/images/goldbanks-shout.png" type="image/png">
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>Gold Banks - Investimentos</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top   align-items-center">
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top   align-items-center"  data-menu="suave">
 		<a class="navbar-brand" href="home">
 			<img src="<?php echo BASE_URL;?>/assets/images/slogan-branco-sem-fundo.png" alt="" width="220" height="70">
 		</a>
@@ -31,9 +35,9 @@
 		</button>
 		<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
-				<a class="nav-item nav-link" href="home" tabindex="-1" aria-disabled="true">Home <span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Serviços</a>
-				<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contato</a>
+				<a class="nav-item nav-link" href="#home" tabindex="-1">Inicio <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="#servicos" tabindex="-1">Serviços</a>
+				<a class="nav-item nav-link" href="#contato" tabindex="-1" >Contato</a>
 				<a class="nav-item nav-link" href="equipe" >Equipe</a>
 			</div>
 		</div>
