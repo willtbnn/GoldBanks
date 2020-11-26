@@ -101,14 +101,14 @@
                         <div class="card-title">
                             website
                         </div>
-                        <p class="card-text text-monospace">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam reprehenderit commodi officiis blanditiis magni, officia sapiente maxime magnam eos, quis debitis voluptate, unde qui exercitationem expedita quos laborum odio! Saepe?</p>
+                        <p class="card-text text-monospace" id="servicos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam reprehenderit commodi officiis blanditiis magni, officia sapiente maxime magnam eos, quis debitis voluptate, unde qui exercitationem expedita quos laborum odio! Saepe?</p>
                     </div>
                 </div>
             </div>
         </section>
     </section>
 </header>
-<article class="container-fluid text-center  my-5 py-5" id="servicos">
+<article class="container-fluid text-center  my-5 py-5" >
     <h2 class="text-warning">Por que a Gold banks ?</h2>
     <div class="row py-5 justify-content-center">
         <div class="col-md-4 col-sm-12" style="width: 18rem;">
@@ -220,11 +220,11 @@
             <img src="assets/images/tom/logo-29.png" alt="" class="img-fluid bancos">
         </div>
         <div class="col-md-2 col-sm-6 w-50">
-            <img src="assets/images/tom/logo-30.png" alt="" class="img-fluid bancos">
+            <img src="assets/images/tom/logo-30.png" alt="" class="img-fluid bancos" id="contato">
         </div>
     </div>
 </section>
-<section class="container" id="contato">
+<section class="container" >
 <form class="container mx-md-5 px-md-5" >
     <div class="text-center my-md-5  py-md-4">
         <h5 class="h1 text-warning text-weight-bold">Entre em contato</h5>
@@ -291,11 +291,11 @@
         <label for="exampleFormControlTextarea1">Sua mensagem</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
     </div>
-    <button type="submit" class="btn btn-success">Enviar mensagem</button>
+    <button type="submit" class="btn btn-success" id="vagas">Enviar mensagem</button>
     <p class="text-muted">(*campos obrigatorios)</p>
 </form>
 </section>
-<section class="container text-center my-md-5  py-md-4">
+<section class="container text-center my-md-5  py-md-4" >
     <h6 class="h1 text-warning my-5">Faça parte de nossa equipe</h6>
     <p>Envie um curriculo para vagas@goldbanksbr.com.br e faça parte dessa equipe!</p>
 </section>

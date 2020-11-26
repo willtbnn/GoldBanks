@@ -4,7 +4,6 @@ body{
 }
 .nav-link:hover{
     color:#FFD600 !important;
-    margin-bottom: -1.4rem;
     border-bottom:2px solid #FFD600;
     transition: all .7s;
 }
@@ -76,7 +75,7 @@ p.status:after{
 }
 @media (max-width: 500px) {
     .maximin{
-        max-height: 15rem;
+        max-height: 25rem;
     }
     #mt-control{
         margin-top: 2rem !important;
@@ -148,4 +147,56 @@ hr{
 }
 .bg-card:hover{
     margin-top:-10px;
+}
+/* Adicionando menudrow */
+.bg-transparant-black{
+    background-color:rgba(0,0,0, 0.9) !important;
+}
+.fill{
+    width: 100%;
+    height: 2px;
+    background-color:blue;
+    background-image:linear-gradient(to right,#0f1517,#ffde59,#ffde59,#0f1517);
+}
+.btn-outline-dark:hover {
+     background-color: rgba(0,0,0,.5) !important; 
+    border-color: rgba(0,0,0,.5) !important; 
+}
+.btn-outline-dark:not(:disabled):not(.disabled).active{
+    background-color: rgba(0,0,0,.5) !important;
+    border:rgba(0,0,0,.5) !important;
+}
+.bg-negocio{
+    background-color: rgba(0,0,0, 0.9);
+    /*box-shadow: inset 550px 550px rgbargba(108, 14, 214);*/
+}
+[data-menu="button"]{
+    margin-top: -5rem;
+    right: 0rem;
+    z-index: 1001;
+    position: fixed;
+    transition: transform .6s !important;
+}
+[data-menu="button"].active{
+   transform: rotate(180deg);
+}
+[data-menu="list"]{
+    z-index: 1000;top:0px;bottom:0;right: 0rem;
+    background-color: #0f1517;
+    margin-right: -20rem;
+    box-shadow: inset 2px 2px 2px 0 rgba(255,255,255, 0.9);
+    transition: all .4s linear;
+    width: 20rem;
+}
+[data-menu="list"].active{
+    margin-right: 0rem !important;
+}
+[data-menu="list"] .nav-link{
+    color:#eee !important;
+}
+[data-menu="list"] .nav-link:hover{
+    /* text-decoration: #ffde59 !important; */
+    color:#FFD600 !important;
+    border-bottom:2px solid #FFD600;
+    transition: all .7s;
 }
