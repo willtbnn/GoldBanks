@@ -3,7 +3,7 @@
         <img src="<?php echo BASE_URL;?>assets/images/capa_gold-banks-clara.jpg" alt="">
     </section>
     <section class="container text-center">
-    <img src="<?php echo BASE_URL;?>assets/images/upload/<?php echo $info['cover'];?>" class=" rounded-circle control-img-card p-top"/>
+    <img src="<?php echo BASE_URL;?>works/public/assets/images/media/covers/<?php echo $info['cover'];?>" class=" rounded-circle control-img-card p-top"/>
     </section>
     <h1 class="mt-5 pt-5"><b><?php echo $info['name'];?></b></h1>
     <article class="container">
@@ -17,9 +17,6 @@
             </p>
             <p><b> Telefone: </b>(21)
                 <?php echo $info['phone'];?>
-            </p>
-            <p><b> data de admissão : </b>
-                <?php echo date('d/m/Y', strtotime($info['admission_date']));?>
             </p>
             <p><b>RG : </b>
                 <?php echo $info['rg_beginning'];?>

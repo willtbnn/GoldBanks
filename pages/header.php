@@ -1,3 +1,6 @@
+<?php //habilitando o cors
+    header("Access-Control-Allow-Origin: *");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,28 +29,25 @@
     <title>Gold Banks - Investimentos</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-negocio fixed-top   align-items-center"  data-menu="suave">
+	<nav class="navbar navbar-expand-lg navbar-light bg-negocio fixed-top align-items-center"  data-menu="suave">
 		<a class="navbar-brand" href="home">
 			<img src="<?php echo BASE_URL;?>/assets/images/slogan-branco-sem-fundo.png" alt="" width="220" height="100">
 		</a>
 		
-		<button data-menu="button" aria-expanded="false" aria-controls="menu" class="btn btn-outline-dark mt-3" data-menu="button">
-                <i  data-vi-primary="#ffd935" data-vi-accent="#000" data-vi="arrow-right"></i>
-                <!-- <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-plus" id="roda" fill="#ffde59" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
-                </svg> -->
-            </button>
+		<div data-menu="button" aria-expanded="false" aria-controls="menu" class="mt-2" data-menu="button">
+            <i  data-vi-primary="#ffd935" data-vi-accent="#fff" data-vi="arrow-right"></i>
+        </div>
         <div class="nav flex-column text-center position-fixed pt-5 mt-0" data-menu="list">
             <div class="text-center pb-5">
                 <div class="">
                     <img src="<?php echo BASE_URL;?>/assets/images/slogan-branco-sem-fundo.png" alt="" width="220" height="100" class="circle" id="quemsou">
                 </div>
             </div>
-            <a href="#home" class="nav-link mt-3">Sobre</a>
-            <a href="#servicos" class="nav-link mt-2">Serviços</a>
-            <a href="#contato" class="nav-link mt-2">Contato</a>
-            <a href="#vagas" class="nav-link mt-2">Vagas</a>
+            <a href="<?php echo BASE_URL; ?>#home" class="nav-link mt-3">Sobre</a>
+            <a href="<?php echo BASE_URL; ?>#servicos" class="nav-link mt-2">Serviços</a>
+            <a href="<?php echo BASE_URL; ?>#contato" class="nav-link mt-2">Contato</a>
+            <a href="<?php echo BASE_URL; ?>#vagas" class="nav-link mt-2">Vagas</a>
+            <a href="<?php echo BASE_URL; ?>equipe" class="nav-link mt-2">Equipe</a>
             <section class="d-flex justify-content-center mt-5">
                 <a href="https://api.whatsapp.com/send?phone=552196435-9287">
                     <img src="assets/images/icones/035-whatsapp.svg" class="w-50" class="d-inline-block" alt="" >

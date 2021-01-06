@@ -73,12 +73,18 @@ p.status:after{
 .maximin{
     max-height: 30rem;
 }
+.w-15{
+    width: 15% !important;
+}
 @media (max-width: 500px) {
     .maximin{
         max-height: 25rem;
     }
     #mt-control{
         margin-top: 2rem !important;
+    }
+    .w-15{
+        width: 50% !important;
     }
     
 }
@@ -133,11 +139,11 @@ hr{
 .fort{
     font-weight: 1000 !important;
     font-family: 'Bebas Neue', cursive;
-    font-size: 5rem !important;
+    font-size: 9rem !important;
     color: white !important;
 }
 .fort-sm{
-    font-size: 2.3rem !important;
+    font-size: 3.3rem !important;
     font-weight: 1000 !important;
     font-family: 'Bebas Neue', cursive;
     color: white !important;
@@ -167,7 +173,7 @@ hr{
     border:rgba(0,0,0,.5) !important;
 }
 .bg-negocio{
-    background-color: rgba(0,0,0, 0.9);
+    background-color: rgba(0,0,0);
     /*box-shadow: inset 550px 550px rgbargba(108, 14, 214);*/
 }
 [data-menu="button"]{
@@ -182,7 +188,7 @@ hr{
 }
 [data-menu="list"]{
     z-index: 1000;top:0px;bottom:0;right: 0rem;
-    background-color: #0f1517;
+    background-color: rgba(0,0,0);
     margin-right: -20rem;
     box-shadow: inset 2px 2px 2px 0 rgba(255,255,255, 0.9);
     transition: all .4s linear;
@@ -199,4 +205,18 @@ hr{
     color:#FFD600 !important;
     border-bottom:2px solid #FFD600;
     transition: all .7s;
+}
+/* Essa parte da notificação das messagem */
+#j_sucesso, #j_enviando, #j_error{
+    display:none;
+}
+.t-light-link{
+    color:#eee;
+}
+.t-none-link{
+    text-decoration: none;
+}
+a.t-none-link:hover{
+    color: #FFD600 !important;
+    text-decoration: none;
 }
