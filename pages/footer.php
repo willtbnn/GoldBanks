@@ -13,7 +13,7 @@
             </div>
             <div class="col-md-4 con-sm-6 pt-3 ">
                 <p>Endereço:</p>
-                <p class="font-weight-bold">Matriz: Avenida do Contorno, 497, 2º andar - São Paulo, SP</p>
+                <p class="font-weight-bold">Matriz: Avenida do Contorno, 497, 2º andar - Guarulhos, SP</p>
                 <p class="font-weight-bold">Filial: Avenida das Américas, 3120, Bloco II, Loja 206/207 - Rio de Janeiro, RJ</p>
                 <p>Email:</p>
                 <p class="font-weight-bold">
