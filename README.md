@@ -47,24 +47,11 @@ try {
 
 ## Layout
 
-__layout home__
+__layout__
 
 __*Layout Desktop*__
-![Layout principal](https://github.com/willtbnn/GoldBanks/blob/master/assets/images/layout-desktop.png)
-
-__*Layout mobile*__
-![Layout principal](https://github.com/willtbnn/GoldBanks/blob/master/assets/images/layout-mobile.jpeg)
-
-__layout Equipe__
-![Layout principal](https://github.com/willtbnn/GoldBanks/blob/master/assets/images/layout-page-equipe.jpeg)
-
-__layout funcionario individual__
-![Layout principal](https://github.com/willtbnn/GoldBanks/blob/master/assets/images/layout-page-perfil-funcionario.jpeg
-)
-
+![Layout principal](https://github.com/willtbnn/GoldBanks/blob/master/assets/images/gold-banks-layout.jpg)
 
 ## Configuração 
 
 Atenção nos arquivos .htaccess e no config.php. 
-
-Veja no site http://www.goldbanksbr.com.br
